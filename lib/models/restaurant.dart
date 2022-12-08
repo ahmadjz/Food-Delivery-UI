@@ -1,4 +1,4 @@
-import 'package:flutter_food_delivery_ui/models/food.dart';
+import 'package:food_delivery_ui/models/food.dart';
 
 class Restaurant {
   final String imageUrl;
@@ -8,10 +8,10 @@ class Restaurant {
   final List<Food> menu;
 
   Restaurant({
-    this.imageUrl,
-    this.name,
-    this.address,
-    this.rating,
-    this.menu,
+    required this.imageUrl,
+    required this.name,
+    required this.address,
+    required this.rating,
+    required this.menu,
   });
 }

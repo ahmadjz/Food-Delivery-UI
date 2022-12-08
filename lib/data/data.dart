@@ -1,9 +1,9 @@
-import 'package:flutter_food_delivery_ui/models/food.dart';
-import 'package:flutter_food_delivery_ui/models/order.dart';
-import 'package:flutter_food_delivery_ui/models/restaurant.dart';
-import 'package:flutter_food_delivery_ui/models/user.dart';
-
 // Food
+import 'package:food_delivery_ui/models/food.dart';
+import 'package:food_delivery_ui/models/order.dart';
+import 'package:food_delivery_ui/models/restaurant.dart';
+import 'package:food_delivery_ui/models/user.dart';
+
 final _burrito =
     Food(imageUrl: 'assets/images/burrito.jpg', name: 'Burrito', price: 8.99);
 final _steak =
