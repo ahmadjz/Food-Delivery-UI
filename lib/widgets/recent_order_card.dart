@@ -8,7 +8,7 @@ class RecentOrderCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.all(10),
+      margin: const EdgeInsetsDirectional.all(10),
       width: 320,
       decoration: BoxDecoration(
         color: Colors.white,
@@ -32,7 +32,7 @@ class RecentOrderCard extends StatelessWidget {
                 ),
                 Expanded(
                   child: Container(
-                    margin: const EdgeInsets.all(12),
+                    margin: const EdgeInsetsDirectional.all(12),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
