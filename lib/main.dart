@@ -15,7 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           scaffoldBackgroundColor: Colors.grey[50],
-          primaryColor: Colors.deepOrangeAccent),
+          primaryColor: Colors.deepOrangeAccent,
+          appBarTheme:
+              const AppBarTheme(backgroundColor: Colors.deepOrangeAccent)),
       home: const HomeScreen(),
     );
   }
