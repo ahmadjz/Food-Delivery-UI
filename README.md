@@ -2,7 +2,7 @@
 
 # Food Delivery UI
  
-A simple food delivery app for practcing UI buildings
+A simple food delivery app without functioning for practicing UI buildings
 
 ### Screenshots
 
